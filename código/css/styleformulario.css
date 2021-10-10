@@ -1,0 +1,56 @@
+body {
+    background-color: #434D66    
+}
+::-webkit-scrollbar-track{
+    background-color: #323535;
+}
+
+::-webkit-scrollbar-button{
+    background-color: #323535;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #6C63FF;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #FE9298;
+}
+.header_formulario {
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 0 15px 15px;
+    background-color: #323535;
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    padding: 280px;
+    z-index: 1;
+    
+}
+
+.logomarca img{
+    margin: 0 -135px 100px;
+    margin-top: -950px;
+    padding: 0;
+    width:  280px;
+    height: 140px;  
+}
+
+.frase p{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    margin: 0 -500px 100px;
+    margin-left: -740px;
+    margin-top: -50px;
+    padding: 40px;
+}
