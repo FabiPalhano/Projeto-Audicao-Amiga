@@ -75,8 +75,8 @@ body {
 }
 
 .linha-horizontal2 {
-    width: calc(100% + 80px);
-    margin-left: -40px;
+    width: calc(60% + 80px);
+    margin-left: 10px;
     border: 1px solid #ffffff;
     opacity: 30%;
     margin-top: 30px;
@@ -98,8 +98,8 @@ body {
 }
 
 .linha-horizontal3 {
-    width: calc(100% + 80px);
-    margin-left: -40px;
+    width: calc(60% + 80px);
+    margin-left: 10px;
     border: 1px solid #ffffff;
     opacity: 30%;
     margin-top: 30px;
@@ -110,8 +110,48 @@ body {
 }
 
 .botao-enviar {
+    width: 140px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+    background-color: #6C63FF;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    display: block;
+    border-radius: 65px;
+    border: none;
+    padding: 5px 32px;;
     margin-top: 15px;
-    margin-left: 100px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.botao-enviar a{
+    width: 180px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: normal;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    margin-top: 30px;
+    margin-left:auto;
+    margin-right:auto;   
+    transition-duration: 1s;
+}
+
+.botao-enviar a:hover{
+    width: 180px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold; 
+    font-size: normal;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #FE9298;
+    margin-top: 30px;
+    margin-left:auto;
+    margin-right:auto; 
 }
 
 .linha-horizontal4 {
@@ -127,6 +167,46 @@ body {
 }
 
 .botao-voltar {
+    width: 250px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+    background-color: #323535;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    display: block;
+    border-radius: 65px;
+    border: none;
+    padding: 5px 32px;;
     margin-top: 70px;
-    margin-left: 50px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.botao-voltar a{
+    width: 250px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: normal;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    margin-top: 30px;
+    margin-left:auto;
+    margin-right:auto;   
+    transition-duration: 1s;
+}
+
+.botao-voltar a:hover{
+    width: 250px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold; 
+    font-size: normal;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #FE9298;
+    margin-top: 30px;
+    margin-left:auto;
+    margin-right:auto; 
 }

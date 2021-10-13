@@ -13,8 +13,7 @@ body {
     background-color: #434D66    
 }
 
-::-webkit-scrollbar
-{
+::-webkit-scrollbar {
     width: 10px;
 }
 
