@@ -1,26 +1,95 @@
+
 body {
     background-color: #434D66    
-}
-::-webkit-scrollbar-track{
-    background-color: #323535;
+   
 }
 
-::-webkit-scrollbar-button{
-    background-color: #323535;
+
+/* formulário */
+
+fieldset{
+    border: 0;
 }
 
-::-webkit-scrollbar-thumb{
+form input[type=text]{
+    box-shadow: inset 0px 3px 3px 0px rgba(0, 0, 0, 0.2);
     background-color: #6C63FF;
-    border-radius: 20px;
+    border-radius: 25px;
+    width: 300px;
+    height: 45px;
+    border: none;
+    padding-left: 30px;
+    margin: 10px 0;
 }
 
-::-webkit-scrollbar-thumb:hover{
+form input[type=password]{
+    box-shadow:inset 0px 3px 3px 0px rgba(0, 0, 0, 0.2);
+    background-color: #6C63FF;
+    border-radius: 25px;
+    width: 300px;
+    height: 45px;
+    border: none;
+    padding-left: 30px;
+    margin: 10px 0;
+      
+}
+
+
+
+form input[type=submit]{
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+    width: 180px;
+    background-color: #6C63FF;    
+    border-radius: 65px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: normal;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #fff;
+    margin-left: -15px;   
+    border: none;
+    padding: 15px 40px;;
+    margin-top: 100px;
+}
+
+form input:hover[type=submit]{
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+    width: 180px;
     background-color: #FE9298;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: normal;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #000;
+    margin-left:auto;
+    margin-right:auto;   
+    border-radius: 65px;
+    border: none;
+    padding: 15px 32px;;
+    margin-top: 50px;
+    
+
+}
+
+.butoon{
+    
+}
+.form-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario{
+    margin: -70px -350px 100px;
 }
 
 .header_formulario {
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
-    border-radius: 0 15px 15px;
+    border-radius: 0 15px 15px 0;
     background-color: #323535;
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
@@ -32,10 +101,12 @@ body {
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
     padding: 280px;
+    box-sizing: border-box;
     z-index: 1;
+    
 }
 
-.logomarca img {
+.logomarca img{
     margin: 0 -135px 100px;
     margin-top: -950px;
     padding: 0;
@@ -43,7 +114,7 @@ body {
     height: 140px;  
 }
 
-.frase p {
+.frase p{
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
@@ -53,4 +124,33 @@ body {
     margin-left: -740px;
     margin-top: -50px;
     padding: 40px;
+}
+
+
+#linha-horizontal {
+    width: 100rem;
+    margin: 0 -500px 100px;
+    border: 1px solid #ffffff;
+    opacity: 30%;
+    margin-top: 90px;    
+}
+
+
+.quadrado{
+    width: 1200px;
+    height: 950px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px 10px 10px 10px;
+    background-color: #323535;
+    margin-left: 650px;
+    
+}
+
+.quadrado img{
+    width: 820px;
+    height: 820px;
+    margin-left: 200px;
+    margin-top: 80px;
+    padding: 0px;
+
 }
