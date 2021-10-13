@@ -1,0 +1,132 @@
+body {
+    background-color: #434D66;
+}
+
+.header {
+    box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 20%);
+    border-radius: 0 15px 15px 0;
+    background-color: #323535;
+    height: 100%;
+    width: 350px;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding: 40px;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.wrapper {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.formulario_voluntario {
+    box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 20%);
+    border-radius: 0 15px 15px 0;
+    background-color: #323535;
+    height: 100%;
+    width: 350px;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding: 40px;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.foto {
+    margin-left: 80px;
+    margin-top: -20px;
+}
+
+.nome-voluntario {
+    margin-left: 50px;
+    margin-top: 10px;
+    color: white;
+}
+
+.linha-horizontal1 {
+    width: calc(100% + 80px);
+    margin-left: -40px;
+    border: 1px solid #ffffff;
+    opacity: 30%;
+    margin-top: 60px;
+}
+
+.linha-horizontal:nth-child(1) {
+    padding-top: 30px;
+}
+
+.botao-cadastro {
+    margin-left: 70px;
+    margin-top: 200px;
+}
+
+.link-video {
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+.linha-horizontal2 {
+    width: calc(100% + 80px);
+    margin-left: -40px;
+    border: 1px solid #ffffff;
+    opacity: 30%;
+    margin-top: 30px;
+}
+
+.linha-horizontal:nth-child(1) {
+    padding-top: 30px;
+}
+
+.modo-traducao {
+    margin-left: 70px;
+    margin-top: 10px;
+    color: white;
+}
+
+.opcao-traducao {
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.linha-horizontal3 {
+    width: calc(100% + 80px);
+    margin-left: -40px;
+    border: 1px solid #ffffff;
+    opacity: 30%;
+    margin-top: 30px;
+}
+
+.linha-horizontal:nth-child(1) {
+    padding-top: 30px;
+}
+
+.botao-enviar {
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+.linha-horizontal4 {
+    width: calc(100% + 80px);
+    margin-left: -40px;
+    border: 1px solid #ffffff;
+    opacity: 30%;
+    margin-top: 30px;
+}
+
+.linha-horizontal:nth-child(1) {
+    padding-top: 30px;
+}
+
+.botao-voltar {
+    margin-top: 70px;
+    margin-left: 50px;
+}
