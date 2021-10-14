@@ -27,7 +27,7 @@ body {
 }
 
 .formulario_voluntario {
-    box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 20%);
+    box-shadow: 3px 3px 3px 3px rgb (0 0 0 / 20%);
     border-radius: 0 15px 15px 0;
     background-color: #323535;
     height: 100%;
@@ -69,36 +69,24 @@ body {
     margin-top: 200px;
 }
 
-.link-video {
-    width: 180px;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+.link-video input[type=text] {
     background-color: #6C63FF;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
-    display: block;
-    border-radius: 65px;
+    border-radius: 25px;
+    width: 300px;
+    height: 35px;
     border: none;
-    padding: 5px 32px;;
+    padding-left: -10px;
+    text-align: center;
+    margin: 10px -15px;
+    padding: 5px 32px;
     margin-top: 15px;
-    margin-left: auto;
-    margin-right:auto;
 }
 
-.link-video a {
-    width: 180px;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: normal;
-    font-family: Helvetica, Arial, sans-serif;
-    color: white;
-    margin-top: 30px;
-    margin-left:auto;
-    margin-right:auto;   
-    transition-duration: 1s;
+.link-video input[type=text] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .linha-horizontal2 {
@@ -236,4 +224,21 @@ body {
     margin-top: 30px;
     margin-left:auto;
     margin-right:auto; 
+}
+
+.quadrado {
+    width: 1200px;
+    height: 950px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px 10px 10px 10px;
+    background-color: #323535;
+    margin-left: 650px;
+}
+
+.quadrado img {
+    width: 820px;
+    height: 820px;
+    margin-left: -200px;
+    margin-top: -590px;
+    padding: 0px;
 }
