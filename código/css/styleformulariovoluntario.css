@@ -69,7 +69,7 @@ body {
     margin-top: 200px;
 }
 
-.link-video input[type=text] {
+.link-video input {
     background-color: #6C63FF;
     border-radius: 25px;
     width: 300px;
@@ -82,7 +82,7 @@ body {
     margin-top: 15px;
 }
 
-.link-video input[type=text] {
+.link-video input {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,9 +107,19 @@ body {
     color: white;
 }
 
-.opcao-traducao {
-    margin-top: 15px;
-    margin-left: 50px;
+.opcao-traducao form {
+    width: 300px;
+    background-color: #6C63FF;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    display: block;
+    border-radius: 65px;
+    border: none;
+    padding: 5px 32px;
+    margin: 10px -15px;
+    margin-right:auto;
 }
 
 .linha-horizontal3 {
@@ -236,9 +246,9 @@ body {
 }
 
 .quadrado img {
-    width: 820px;
-    height: 820px;
-    margin-left: -200px;
+    width: 620px;
+    height: 620px;
+    margin-left: -100px;
     margin-top: -590px;
     padding: 0px;
 }
