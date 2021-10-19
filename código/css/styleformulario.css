@@ -134,14 +134,13 @@ form input:hover[type=submit]{
 }
 
 
-.quadrado{
+.quadrado {
     width: 1200px;
     height: 950px;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
     border-radius: 10px 10px 10px 10px;
     background-color: #323535;
-    margin-left: 650px;
-    
+    margin-left: 650px;    
 }
 
 .quadrado img{
