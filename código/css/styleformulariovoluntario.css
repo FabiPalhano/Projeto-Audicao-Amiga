@@ -321,7 +321,8 @@ body {
 
 .quadrado img {
     width: 620px;
-    height: 620px;
+    height: 600px;
     margin-left: 150px;
-    margin-top: -390px;
-}
+    margin-top: -390px;
+    padding: -10px;
+}  
