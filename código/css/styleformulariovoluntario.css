@@ -135,7 +135,7 @@ body {
     color: white;
 }
 
-.opcao-traducao form {
+.opcao-traducao {
     width: 300px;
     background-color: #6C63FF;
     text-align: justify;
@@ -154,7 +154,7 @@ body {
     margin-left: 20%;
 }
 
-.opcao-traducao2 form {
+.opcao-traducao2 {
     width: 300px;
     background-color: #6C63FF;
     text-align: justify;
@@ -173,7 +173,7 @@ body {
     margin-left: 46.2%;
 }
 
-.opcao-traducao3 form {
+.opcao-traducao3 {
     width: 300px;
     background-color: #6C63FF;
     text-align: justify;
