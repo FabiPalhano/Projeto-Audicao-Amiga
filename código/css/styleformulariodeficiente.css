@@ -327,21 +327,21 @@ body {
 }
 
 .quadrado {
-    width: 950px;
-    height: 590px;
+    width: 1400px;
+    height: 950px;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
     border-radius: 10px 10px 10px 10px;
     background-color: #323535;
     overflow: hidden;     
     display: flex;     
     align-items: flex-start;    
-    margin-left: 350px;
-    margin-top: -580px;
+    margin-left: 100px;
+    margin-top: 30px;
 }
 
 .quadrado img {
-    width: 620px;
-    height: 600px;
+    width: 1040px;
+    height: 1005px;
     margin-left: 150px;
     margin-top: 15px;
     padding: -10px;

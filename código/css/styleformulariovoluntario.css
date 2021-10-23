@@ -315,8 +315,8 @@ body {
     overflow: hidden;     
     display: flex;     
     align-items: flex-start;    
-    margin-left: 350px;
-    margin-top: -580px;
+    margin-left: 40px;
+    margin-top: 20px;
 }
 
 .quadrado img {

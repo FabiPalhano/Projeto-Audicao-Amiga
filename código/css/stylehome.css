@@ -13,7 +13,14 @@ body {
     background-color: #434D66    
 }
 
-
+.fontbtn a div:last-child{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: normal;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+  }
 
 .btn {
     width: 180px;
@@ -34,20 +41,6 @@ body {
 }
 
 
-.btn a{
-    width: 180px;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: normal;
-    font-family: Helvetica, Arial, sans-serif;
-    color: white;
-    margin-top: 30px;
-    margin-left:auto;
-    margin-right:auto;   
-    transition-duration: 1s;
-}
-
 .btn a:hover{
     width: 180px;
     text-align: center;
@@ -66,6 +59,24 @@ body {
     box-shadow: 0 3px #282b2b;
     transform: translateY(4px);
   }
+
+.btn a{
+    width: 180px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: normal;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    margin-top: 30px;
+    margin-left:auto;
+    margin-right:auto;   
+    transition-duration: 1s;
+}
+
+
+
+
 
 
 .header {
@@ -103,9 +114,9 @@ body {
 
 
 .logomarca img{
-    display: block;
-    width:  100%;
-    height: auto;  
+    display: flex;
+    width:  955px;
+    height: 558px;  
     margin-left:auto;
     margin-right:auto;
 }

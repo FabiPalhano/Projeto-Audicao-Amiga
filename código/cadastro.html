@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastre-se</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/stylecadastro.css">
+        <link rel="icon" type="icon/ico" href="img/icone/icon.ico">
+    </head>
+
+        <body>
+                <header class="formulario">            
+                    <div>
+                        <a href="home.html"></a>
+                        <a href="formulario.html"></a>
+                        <a href="formulariovoluntario.html"></a>
+                    </div>
+
+                    <div class="logo">
+                        <img src="img/icone/LogoProjetoFINAL-full.png" alt="logoprojetofinal">
+                    </div>
+
+                    <div class="frase">
+                        <p>Todo cidadão tem o direito de acessar conteúdos veiculados pelos meios audiovisuais em suas diversas plataformas com audiodescrição, legendas e Libras.</p>
+                    </div>
+
+                    <div class="espaço"></div>
+                        <div class="separador"></div>
+                            <div class="registro"></div>
+                    
+                    <form>  <!-- nome interno das caixas deveria ser branco-->
+                        <div class="form-group row">
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" id="inputNome1" required="" placeholder="Nome">
+                                <input type="text" class="form-control" id="inputNome2" required="" placeholder="Sobrenome">
+                            </div>
+                        </div>                    
+
+                        <div class="form-group row"> 
+                            <div class="col-sm-9">
+                                <input type="tel" class="form-control" id="inputTelefone"  required="" placeholder="Celular ou email"> 
+                            </div>
+                        </div>    
+                        
+                        <div class="col-sm-7">
+                            <input type="password" class="form-control" id="inputSenha" required="" placeholder="Nova senha">
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-sm-5">
+                                <p>Data de Nascimento:</p>
+                                <input type="date" class="form-control" id="inputData" required="" placeholder=""> 
+                                <p>Genêro:</p>
+                                <input type="radio" class="form-control" id="inputGenêro1" required=""  placeholder="">
+                                <label for="feminino">Feminino</label>
+                                <input type="radio" class="form-control" id="inputGenêro2" required=""  placeholder="">
+                                <label for="masculino">Masculino</label>
+                                <input type="radio" class="form-control" id="inputGenêro3" required=""  placeholder="">
+                                <label for="outros">Outros</label>                            
+                            </div>
+                        </div>
+
+                        <div class="separador2"></div>
+
+                            <p>Já tem uma conta? Entre</p> <!-- centralizar esse elemento conforme o protótipo-->
+
+                            <div class="form-group row">
+                                <div class="col-sm-5">
+                                    <input type="submit" value="CADASTRE-SE">  <!--precisa fazer com que ao clicar nesse botão você seja redirecionado para a página de login.html-->
+                                </div>
+                            </div>
+
+                            <div class="centro">
+                                <img src="img/icone/registro.jpg" alt="registro">
+                            </div>
+                        </form>    
+                    </header>
+        </body>
+</html>
+
+
+<!--deixar as palavras em branco do formulário editando atráves do css e não no HTML direto-->
+<!--alterar a cor do placeholder (nome, sobrenome, celular ou e-mail, nova senha) para branco conforme protótipo-->
+<!--inserir um espaçamento melhor entre gênero e as opções escritas no rádio-->
+<!--alinhar a divisória entre os gêneros e o botão cadastre-se-->
